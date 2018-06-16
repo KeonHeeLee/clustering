@@ -19,6 +19,5 @@ public class Clustering {
         clsEval.setClusterer(model);
         clsEval.evaluateClusterer(data);
         System.out.println("# of clusters: " + clsEval.getNumClusters());
-
     }
 }
